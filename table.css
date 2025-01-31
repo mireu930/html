@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      text-align: center;
+      background-color:grey;
+    }
+
+    table{
+      width: 80%;
+      height: 300px;
+      margin: 100px auto;
+      border: black 2px solid;
+      border-spacing: 0px;
+      border-collapse:collapse;
+      border-color: gray;
+      
+    }
+    thead {
+      height: 20px;
+      background-color: black;
+      color: white;
+    }
+    tbody{
+      /* margin: 10px auto; */
+      position: relative;
+     background-color:gray;
+     border-color: gray;
+    }
+    tbody > tr {
+      padding: 10px 0px;
+      border-color: gray;
+    }
+    td {
+      background-color: white;
+    }
+    tfoot{
+      height: 40px;
+      background-color:white;
+    }
+    .c1 {
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>NO</th>
+        <th>Subject</th>
+        <th>Name</th>
+        <th>DATE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>공지</td>
+        <td class = "c1">아무거나나</td>
+        <td>FNC</td>
+        <td>24.10.10</td>
+      </tr>
+      <tr>
+        <td>공지</td>
+        <td class = "c1">아무거나나</td>
+        <td>FNC</td>
+        <td>24.10.10</td>
+      </tr>
+      <tr>
+        <td>공지</td>
+        <td class = "c1">아무거나나</td>
+        <td>FNC</td>
+        <td>24.10.10</td>
+      </tr>
+      <tr>
+        <td>공지</td>
+        <td class = "c1">아무거나나</td>
+        <td>FNC</td>
+        <td>24.10.10</td>
+      </tr>
+      <tr>
+        <td>공지</td>
+        <td class = "c1">아무거나나</td>
+        <td>FNC</td>
+        <td>24.10.10</td>
+      </tr>
+      <tr>
+        <td>공지</td>
+        <td class = "c1">아무거나나</td>
+        <td>FNC</td>
+        <td>24.10.10</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>search</td>
+        <td colspan="3">|1|2|3|4|5|</td>
+      </tr>
+    </tfoot>
+
+  </table>
+  
+</body>
+</html>
